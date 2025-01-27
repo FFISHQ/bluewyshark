@@ -1,0 +1,141 @@
+
+@font-face {
+    font-family: 'FCVisionBold';
+    src: url('fonts/FCVisionBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FCMision';
+    src: url('fonts/FCMission.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'FCMision', 'Sarabun', Arial, sans-serif;
+    background-color:#cee1f2;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+h1{
+    color:#040a21;
+    font-size: 2.5em;
+    font-family: 'FCVisionBold', 'Mitr', Arial, sans-serif;
+}
+h2{
+    font-weight: normal;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 140px;
+    margin-bottom: 25px;
+}
+h5{
+    color:#040a21;
+    background-color: #ffc94b;
+    border: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 20px;
+    font-size: 2em;
+    font-family: 'FCVisionBold', 'Mitr', Arial, sans-serif;
+}
+h6{
+    font-size: 1em;
+    text-decoration: underline;
+}
+P{
+    color:#1d295a;
+    font-size: 1em;
+    font-family: 'FCMision', 'Sarabun', Arial, sans-serif;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+img{
+    padding: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #003f7f;
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: 2px solid #80bdff;
+    outline-offset: 2px;
+}
+
+a button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+a button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+a button:active {
+    background-color: #003f7f;
+    transform: scale(0.95);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a button:focus {
+    outline: 2px solid #80bdff;
+    outline-offset: 2px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.intro-text{
+    margin-bottom: 50px;
+}
+
+#clearButton {
+    font-size: 12px;
+    padding: 5px 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

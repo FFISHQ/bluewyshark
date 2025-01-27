@@ -1,0 +1,20 @@
+
+.shark-group {
+    font-size: 1.25em;
+    text-align: left;
+    margin-left: 120px;
+  }
+  
+  .shark-group input,
+  .shark-group label {
+    margin-bottom: 20px;
+  }
+  
+  .shark-group input {
+    margin-right: 15px;
+  }
+  
+  .shark-group label {
+    display: inline-block;
+  }
+  
