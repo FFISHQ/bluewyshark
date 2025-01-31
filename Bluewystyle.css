@@ -120,6 +120,7 @@ a button {
 }
 
 a button:hover {
+    text-decoration: none;
     text-decoration-color: inherit;
     background-color: #0056b3;
     transform: scale(1.1);
