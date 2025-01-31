@@ -66,6 +66,10 @@ img{
     padding: 10px;
 }
 
+h3, button {
+    font-family: 'FCMision', 'Sarabun', Arial, sans-serif;
+}
+
 button {
     all: unset;
     font-family: 'FCMision', 'Sarabun', Arial, sans-serif;
