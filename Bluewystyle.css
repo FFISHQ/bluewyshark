@@ -120,6 +120,8 @@ a button {
 }
 
 a button:hover {
+    text-decoration: underline;
+    text-decoration-color: inherit;
     background-color: #0056b3;
     transform: scale(1.1);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
