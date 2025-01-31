@@ -67,6 +67,7 @@ img{
 }
 
 button {
+    font-family: 'FCMision', 'Sarabun', Arial, sans-serif;
     background-color: #007BFF;
     color: white;
     border: none;
@@ -95,6 +96,7 @@ button:focus {
 }
 
 a button {
+    font-family: 'FCMision', 'Sarabun', Arial, sans-serif;
     background-color: #007BFF;
     color: white;
     border: none;
