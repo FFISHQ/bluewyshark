@@ -134,6 +134,7 @@ a button:focus {
 
 a:hover{
     text-decoration: underline;
+    text-decoration-color: currentColor;
 }
 
 .intro-text{
